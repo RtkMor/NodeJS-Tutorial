@@ -1,0 +1,127 @@
+{
+    "library": {
+        "name": "City Library",
+        "address": {
+        "street": "123 Library St.",
+        "city": "Booktown",
+        "state": "Readersland",
+        "zip": "12345"
+        },
+        "books": [
+        {
+            "id": 1,
+            "title": "The Great Gatsby",
+            "author_id": 1,
+            "publication_year": 1925,
+            "genres": ["Fiction", "Classic"],
+            "copies": [
+            {"copy_id": "A1", "available": true},
+            {"copy_id": "A2", "available": false}
+            ]
+        },
+        {
+            "id": 2,
+            "title": "To Kill a Mockingbird",
+            "author_id": 2,
+            "publication_year": 1960,
+            "genres": ["Fiction", "Classic", "Historical"],
+            "copies": [
+            {"copy_id": "B1", "available": false},
+            {"copy_id": "B2", "available": true}
+            ]
+        },
+        {
+            "id": 3,
+            "title": "1984",
+            "author_id": 3,
+            "publication_year": 1949,
+            "genres": ["Fiction", "Dystopian", "Science Fiction"],
+            "copies": [
+            {"copy_id": "C1", "available": true},
+            {"copy_id": "C2", "available": true},
+            {"copy_id": "C3", "available": false}
+            ]
+        },
+        {
+            "id": 4,
+            "title": "The Catcher in the Rye",
+            "author_id": 4,
+            "publication_year": 1951,
+            "genres": ["Fiction", "Classic", "Young Adult"],
+            "copies": [
+            {"copy_id": "D1", "available": true},
+            {"copy_id": "D2", "available": false}
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Moby-Dick",
+            "author_id": 5,
+            "publication_year": 1851,
+            "genres": ["Fiction", "Adventure", "Classic"],
+            "copies": [
+            {"copy_id": "E1", "available": false},
+            {"copy_id": "E2", "available": false}
+            ]
+        }
+        ],
+        "authors": [
+        {
+            "author_id": 1,
+            "name": "F. Scott Fitzgerald",
+            "birth_year": 1896,
+            "death_year": 1940,
+            "nationality": "American"
+        },
+        {
+            "author_id": 2,
+            "name": "Harper Lee",
+            "birth_year": 1926,
+            "death_year": 2016,
+            "nationality": "American"
+        },
+        {
+            "author_id": 3,
+            "name": "George Orwell",
+            "birth_year": 1903,
+            "death_year": 1950,
+            "nationality": "British"
+        },
+        {
+            "author_id": 4,
+            "name": "J.D. Salinger",
+            "birth_year": 1919,
+            "death_year": 2010,
+            "nationality": "American"
+        },
+        {
+            "author_id": 5,
+            "name": "Herman Melville",
+            "birth_year": 1819,
+            "death_year": 1891,
+            "nationality": "American"
+        }
+        ],
+        "members": [
+        {
+            "member_id": 1,
+            "name": "Alice Johnson",
+            "membership_start_date": "2020-01-15",
+            "borrowed_books": [
+            {"copy_id": "A2", "borrowed_date": "2023-05-12"},
+            {"copy_id": "C3", "borrowed_date": "2023-06-01"}
+            ]
+        },
+        {
+            "member_id": 2,
+            "name": "Bob Smith",
+            "membership_start_date": "2019-03-22",
+            "borrowed_books": [
+            {"copy_id": "B1", "borrowed_date": "2023-06-05"},
+            {"copy_id": "E1", "borrowed_date": "2023-05-20"}
+            ]
+        }
+        ]
+    }
+}
+  
